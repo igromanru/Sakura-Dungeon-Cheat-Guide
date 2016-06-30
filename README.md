@@ -15,19 +15,19 @@ In case of Sakura Dungeon we don't have to decompile anything, the game got an d
 At first we want to activate the developer console.  
 
 1. Save and close the game.
-2. Go to your Sakura Dungeon directory.
-![Step 1](http://i.imgur.com/zxrWI2B.gif)  
+2. Go to your Sakura Dungeon directory.  
+[Gif](http://i.imgur.com/zxrWI2B.gif)  
 3. Go to renpy\common\ folder and search for 00console.rpy.
 4. Open 00console.rpy and go to line 98.
-5. Change `config.console = False` to `config.console = True`
-![Step 1](http://i.imgur.com/xknDyqz.gif)
+5. Change `config.console = False` to `config.console = True`  
+[Gif](http://i.imgur.com/xknDyqz.gifv)
 6. Done, now you can use the developer console ingame.
 
 
 ## Console usage
 After [activating](#get-started) the console, you can use it ingame.  
 Try to open it with shift+o.  
-![Open Console](http://i.imgur.com/qqlsKVO.gif)
+[Gif](http://i.imgur.com/qqlsKVO.gifv)
 
 Generally the console can execute any valid python command.  
 We will use it to manipulate the game.  

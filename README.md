@@ -1,7 +1,7 @@
 # Sakura Dungeon Cheat Guide
 
 Sakura Dungeon was made with the visual novel engine [Ren'Py](https://www.renpy.org/).  
-It makes it harder to hack the game with something like Cheat Engine, but it's based on [Python](https://www.python.org/), so the game scrips can be easily decompiled and modified.  
+It's makes it harder to hack the game with something like Cheat Engine, but it's based on [Python](https://www.python.org/), so the game scrips can be easily decompiled and modified.  
 In case of Sakura Dungeon we don't have to decompile anything, the game got an developer console, that can be simple enabled and used to modify the game while playing. This is what the guide about.
 
 ## Index
@@ -33,3 +33,4 @@ Generally the console can execute any valid python command.
 We will use it to manipulate the game.  
 
 ### Modify stats and attributes
+-- cooming soon --

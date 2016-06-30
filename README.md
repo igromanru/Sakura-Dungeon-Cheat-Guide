@@ -34,3 +34,8 @@ We will use it to manipulate the game.
 
 ### Modify stats and attributes
 -- cooming soon --
+[Full actors(characters) list](https://docs.google.com/spreadsheets/d/1ZtdCNY44I7SRhcCkU0ZzTvG5PptmZHj4Kfen7Lh2p8M)
+
+### Add or remove consumable and valuable
+-- cooming soon --
+[Full items list](https://docs.google.com/spreadsheets/d/12vLrKiqmfnh0nwrKD5HbC9Qk7lWj77fPff1_-cSj5Os)

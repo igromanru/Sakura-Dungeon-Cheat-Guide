@@ -16,11 +16,11 @@ At first we want to activate the developer console.
 
 1. Save and close the game.
 2. Go to your Sakura Dungeon directory.  
-[Gif](http://i.imgur.com/zxrWI2B.gif)  
+[Gif](http://i.imgur.com/zxrWI2B.gifv)  
 3. Go to renpy\common\ folder and search for 00console.rpy.
 4. Open 00console.rpy and go to line 98.
 5. Change `config.console = False` to `config.console = True`  
-[Gif](http://i.imgur.com/xknDyqz.gifv)
+[Gif](http://i.imgur.com/rrRn9ce.gifv)
 6. Done, now you can use the developer console ingame.
 
 

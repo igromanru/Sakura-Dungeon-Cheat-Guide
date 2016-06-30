@@ -8,7 +8,7 @@ In case of Sakura Dungeon we don't have to decompile anything, the game got an d
 * [Get Started](#get-started)
 * [Console usage](#console-usage)
  * [Modify stats and attributes](#modify-stats-and-attributes)
- * [Add or remove consumable and valuable](#add-or-remove-consumables-and-valuables)
+ * [Add or remove consumable and valuable](#add-or-remove-consumable-and-valuable-items)
 
 
 
@@ -38,7 +38,7 @@ We will use it to manipulate the game.
 
 [Full actors(characters) list](https://docs.google.com/spreadsheets/d/1ZtdCNY44I7SRhcCkU0ZzTvG5PptmZHj4Kfen7Lh2p8M)
 
-### Add or remove consumables and valuables
+### Add or remove consumable and valuable items
 -- cooming soon --  
 
 [Full items list](https://docs.google.com/spreadsheets/d/12vLrKiqmfnh0nwrKD5HbC9Qk7lWj77fPff1_-cSj5Os)

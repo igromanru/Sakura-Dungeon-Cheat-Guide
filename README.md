@@ -9,6 +9,9 @@ In case of Sakura Dungeon we don't have to decompile anything, the game got an d
 * [Console usage](#console-usage)
  * [Modify stats and attributes](#modify-stats-and-attributes)
  * [Add or remove consumable and valuable](#add-or-remove-consumable-and-valuable-items)
+  * [Generally](#generally)
+  * [Stats](#stats)
+  * [Attributes](#attributes)
 * [Credits](#credits)
 
 
@@ -41,6 +44,8 @@ Attributes are more static and will be only modified by items you use.
 #### Generally
 -- coming soon --
 #### Stats
+-- coming soon --
+#### Attributes
 -- coming soon --
 
 [Full actors(characters) list](https://docs.google.com/spreadsheets/d/1ZtdCNY44I7SRhcCkU0ZzTvG5PptmZHj4Kfen7Lh2p8M)

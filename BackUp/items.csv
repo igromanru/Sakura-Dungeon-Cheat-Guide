@@ -1,0 +1,168 @@
+id,name,type,cost,info
+warp_gem,Warp Gem,return,10000,Return to the surface. Can be used an infinite number of times.
+warp_stone,Warp Stone,return,100,Return to the surface.
+amulet,Warding Stone,lurk,200,Reduces encounter rate.
+lure_amulet,Shiny Lure,allure,200,Raises encounter rate.
+heal_potion,Healing Potion,heal,100,Heals a party member's VP.
+repair_potion,Mending Tonic,repair,300,Repairs a party member's outfit.
+melt_potion,Melting Tonic,melt,300,Damages a party member's  outfit.
+revival_potion,Reviving Balm,revival,1000,Revives a party member and repairs their outfit.
+elixir,Elixir,allheal,2500,"Revives, fully heals and repairs the outfits of all party members."
+vitality_seed_s,Small Vitality Seed,vit,2500,Raises vitality to a maximum of 4.
+agility_seed_s,Small Agility Seed,agi,2500,Raises agility to a maximum of 4.
+mentality_seed_s,Small Mental Seed,mnt,2500,Raises mentality to a maximum of 4.
+strength_seed_s,Small Strength Seed,str,2500,Raises strength to a maximum of 4.
+dexterity_seed_s,Small Dexterity Seed,dex,2500,Raises dexterity to a maximum of 4.
+resilience_seed_s,Small Resilient Seed,res,2500,Raises resilience to a maximum of 4.
+vitality_seed_m,Medium Vitality Seed,vit,5000,Raises vitality to a maximum of 6.
+agility_seed_m,Medium Agility Seed,agi,5000,Raises agility to a maximum of 6.
+mentality_seed_m,Medium Mental Seed,mnt,5000,Raises mentality to a maximum of 6.
+strength_seed_m,Medium Strength Seed,str,5000,Raises strength to a maximum of 6.
+dexterity_seed_m,Medium Dexterity Seed,dex,5000,Raises dexterity to a maximum of 6.
+resilience_seed_m,Medium Resilient Seed,res,5000,Raises resilience to a maximum of 6.
+vitality_seed_l,Large Vitality Seed,vit,10000,Raises vitality to a maximum of 8.
+agility_seed_l,Large Agility Seed,agi,10000,Raises agility  to a maximum of 8.
+mentality_seed_l,Large Mental Seed,mnt,10000,Raises mentality  to a maximum of 8.
+strength_seed_l,Large Strength Seed,str,10000,Raises strength  to a maximum of 8.
+dexterity_seed_l,Large Dexterity Seed,dex,10000,Raises dexterity to a maximum of 8.
+resilience_seed_l,Large Resilient Seed,res,10000,Raises resilience  to a maximum of 8.
+vitality_seed_h,Huge Vitality Seed,vit,15000,"Raises vitality, no limit."
+agility_seed_h,Huge Agility Seed,agi,15000,"Raises agility, no limit."
+mentality_seed_h,Huge Mental Seed,mnt,15000,"Raises mentality, no limit."
+strength_seed_h,Huge Strength Seed,str,15000,"Raises strength, no limit."
+dexterity_seed_h,Huge Dexterity Seed,dex,15000,"Raises dexterity, no limit."
+resilience_seed_h,Huge Resilient Seed,res,15000,"Raises resilience, no limit."
+resist_air_seed,Air Resistance Seed,air,20000,Raises air resistance.
+resist_fire_seed,Fire Resistance Seed,fire,20000,Raises fire resistance.
+resist_ice_seed,Ice Resistance Seed,ice,20000,Raises ice resistance.
+resist_shock_seed,Shock Resistance Seed,shock,20000,Raises shock resistance.
+resist_poison_seed,Poison Resistance Seed,poison,20000,Raises poison resistance.
+resist_physical_seed,Physical Resistance Seed,physical,50000,Raises physical resistance.
+magic_6_scroll,Capture Scroll,magic_6,1000,Teaches the Capture skill.
+healing_light_scroll,Meditation Scroll,healing_light,1500,Teaches the Meditation skill.
+impact_scroll,Impact Scroll,impact,1000,Teaches the Impact skill.
+claw_slash_scroll,Claw Slash Scroll,claw_slash,1000,Teaches the Claw Slash skill.
+biting_attack_scroll,Biting Attack Scroll,biting_attack,1500,Teaches the Biting Attack skill.
+flurry_of_punches_scroll,Furry of Blows Scroll,flurry_of_punches,2000,Teaches the Flurry of Blows skill.
+rapid_claw_scroll,Rapid Claws Scroll,rapid_claw,3000,Teaches the Rapid Claws skill.
+very_powerful_punch_scroll,Smashing Blow Scroll,very_powerful_punch,3500,Teaches the Smashing Blow skill.
+berserk_scroll,Berserk Scroll,berserk,4000,Teaches the Berserk skill.
+standard_sword_slash_scroll,Single Slash Scroll,standard_sword_slash,1500,Teaches the Single Slash skill.
+sparks_scroll,Triple Slashes Scroll,sparks,2500,Teaches the Triple Slashes skill.
+ef90_scroll,Dancing Blade Scroll,ef90,3500,Teaches the Dancing Blade skill.
+whip_attack_scroll,Shot Scroll,whip_attack,1500,Teaches the Shot skill.
+ef83_scroll,Arrows Scroll,ef83,2500,Teaches the Arrows skill.
+hurl_boulder_scroll,Hurl Boulder Scroll,hurl_boulder,3500,Teaches the Hurl Boulder skill.
+demons_claws_scroll,Venom Claws Scroll,demons_claws,2500,Teaches the Venom Claws skill.
+ef86_scroll,Venom Shot Scroll,ef86,1500,Teaches the Venom Shot skill.
+ash_cloud_scroll,Poison Breath Scroll,ash_cloud,3000,Teaches the Poison Breath skill.
+black_flames_scroll,Poison Dust Scroll,black_flames,1500,Teaches the Poison Dust skill.
+poison_bolt_scroll,Poison Bolt Scroll,poison_bolt,2500,Teaches the Poison Bolt skill.
+gravel_throw_scroll,Toxic Bomb Scroll,gravel_throw,3500,Teaches the Toxic Bomb skill.
+tornado_slashes_scroll,Tornado Slashes Scroll,tornado_slashes,2500,Teaches the Tornado Slashes skill.
+dust_blast_scroll,Dust Blast Scroll,dust_blast,1500,Teaches the Dust Blast skill.
+ef87_scroll,Air Cutter Scroll,ef87,3000,Teaches the Air Cutter skill.
+gust_scroll,Gust Scroll,gust,1500,Teaches the Gust
+whirlwind_scroll,Whirlwind Scroll,whirlwind,2500,Teaches the Whirlwind skill.
+tornado_scroll,Tornado Scroll,tornado,3500,Teaches the Tornado skill.
+fire_slash_scroll,Fire Slash Scroll,fire_slash,3000,Teaches the Fire Slash skill.
+dragons_breath_scroll,Fire Breath Scroll,dragons_breath,3500,Teaches the Fire Breath skill.
+ef91_scroll,Missile Launcher Scroll,ef91,3500,Teaches the Missile Launcher skill.
+fire_twist_scroll,Fire Twist Scroll,fire_twist,2000,Teaches the Fire Twist skill.
+combust_scroll,Combust Scroll,combust,3000,Teaches the Combust skill.
+rings_of_flames_scroll,Rings of Flames Scroll,rings_of_flames,4000,Teaches the Rings of Flames skill.
+ice_hammer_scroll,Ice Hammer Scroll,ice_hammer,3000,Teaches the Ice Hammer skill.
+ice_seal_scroll,Ice Cutter Scroll,ice_seal,3500,Teaches the Ice Cutter skill.
+ice_flash_scroll,Ice Flash Scroll,ice_flash,2000,Teaches the Ice Flash skill.
+crystal_spike_scroll,Crystal Spike Scroll,crystal_spike,3000,Teaches the Crystal Spike skill.
+avalanche_scroll,Avalanche Scroll,avalanche,4000,Teaches the Avalanche skill.
+lightning_slices_scroll,Lightning Slices Scroll,lightning_slices,3500,Teaches the Lightning Slices skill.
+ball_lightning_scroll,Ball Lightning Scroll,ball_lightning,4000,Teaches the Ball Lightning skill.
+lightning_small_scroll,Thunder Scroll,lightning_small,2500,Teaches the Thunder skill.
+chain_lightning_scroll,Thunder Chain Scroll,chain_lightning,3500,Teaches the Thunder Chain skill.
+thunder_storm_scroll,Thunder Storm Scroll,thunder_storm,5000,Teaches the Thunder Storm skill.
+electro_slash_scroll,Holy Slash Scroll,electro_slash,4000,Teaches the Holy Slash skill.
+arrows_scroll,Holy Arrows Scroll,arrows,5000,Teaches the Holy Arrows skill.
+holy_bolt_scroll,Holy Bolt Scroll,holy_bolt,4000,Teaches the Holy Bolt skill.
+shadow_bolt_scroll,Ether Burst Scroll,shadow_bolt,6000,Teaches the Ether Burst skill.
+magic_7_scroll,Supernova Scroll,magic_7,3000,Teaches the Supernova skill.
+magic_1_scroll,Spell Disruption Scroll,magic_1,3000,Teaches the Spell Disruption skill.
+ghosts_scroll,Terrorize Scroll,ghosts,3500,Teaches the Terrorize skill.
+multiple_sword_slashes_scroll,Astral Blade Scroll,multiple_sword_slashes,5000,Teaches the Astral Blade skill.
+shockwave_scroll,Astral Flare Scroll,shockwave,6000,Teaches the Astral Flare skill.
+fox_default,Kimono,fox,0,Yomi's kimono. Her favourite outfit in her wardrobe.
+fox_bikini,Pink Bikini,fox,0,"A pink, checkered bikini."
+fox_bikini_black,Black Bikini,fox,0,A black bikini with white frills.
+fox_swimsuit,Swimsuit,fox,0,A tight fitting outfit made from special materials. Enables streamlined movement through water.
+fox_schoolswim,School Swimsuit,fox,0,A swimsuit which is designed with modesty in mind. Said to be worn by students in a foreign land.
+fox_bunnysuit,Bunny Suit,fox,0,"A cotton tail and droopy, fake ears compliment this skin tight outfit."
+fox_maid,French Maid,fox,0,This outfit is said to be worn by servants of a civilisation to the west.
+fox_wedding,Wedding Dress,fox,0,A white dress worn on a bride's special day. This particular dress has been designed to Isabella's own preferences.
+fox_ribbon,Ribbons,fox,0,"One of the most mundane yet creatively designed outfits in Yomi's wardrobe, these ribbons have to be carefully placed."
+fox_bondage,Bondage,fox,0,"An outfit made of shiny, black material which rubs up against the skin."
+fox_chocolate,Chocolate,fox,0,A coating of chocolate which sustains itself with the user's mana. Said to be especially delicious.
+fox_tiger,Tiger Costume,fox,0,"Despite the name, this outfit was made from cotton and does not actually use any tiger-based materials."
+fox_tribal,Tribal Costume,fox,0,Leather and fur are what ancient humans wore in the distant past. Some things never go out of style.
+fox_scifi,Space Suit,fox,0,"Forged from the mysterious material known as 'carbon fibre', this outfit provides exceptional protection."
+fox_talisman,Talisman,fox,0,Izanami's cursed seals provide a constant reminder of the desperate battle fought in the depths below.
+fox_demon,Demon Costume,fox,0,"The influence of the abyss can manifest in many different ways. In Yomi's case, it manifested as this revealing outfit."
+knight_default,Armour,knight,0,Armour forged in the human cities. Reliable and Ceri's favourite outfit.
+knight_bikini,Bikini,knight,0,A strange outfit made for water-based activities. Ceri does not seem to like it.
+knight_bikini_blue,Blue Bikini,knight,0,A bikini dyed bright blue.
+knight_leaf,Leaf Bikini,knight,0,A bikini made from plant-based materials. Isabella's enhancements keep it eternally green.
+knight_schoolswim,School Swimsuit,knight,0,A swimsuit which is designed with modesty in mind. Said to be worn by students in a foreign land.
+knight_bunnysuit,Bunny Suit,knight,0,"A cotton tail and droopy, fake ears compliment this skin tight outfit."
+knight_maid,French Maid,knight,0,This outfit is said to be worn by servants of a civilisation to the west.
+knight_lingerie,White Lingerie,knight,0,"Made from an especially hard-to-tailor material, this lingerie leaves just enough to the imagination. It is dyed white."
+knight_lingerie_black,Black Lingerie,knight,0,"Made from an especially hard-to-tailor material, this lingerie leaves just enough to the imagination. It is dyed black."
+knight_wedding,Wedding Dress,knight,0,A white dress worn on a bride's special day. This particular dress has been designed to Isabella's own preferences.
+knight_ribbon,Ceri's Ribbons,knight,0,"One of the most mundane yet creatively designed outfits in Yomi's wardrobe, these ribbons have to be carefully placed."
+knight_ribbon_black,Ribbons & Fishnets,knight,0,Repurposed fish netting add a certain sensual allure to the already revealing ribbons.
+knight_bondage,Ceri's Bondage Outfit,knight,0,"An outfit made of shiny, black material which rubs up against the skin."
+knight_chocolate,Chocolate,knight,0,A coating of chocolate which sustains itself with the user's mana. Said to be especially delicious.
+knight_tribal,Tribal Costume,knight,0,Leather and fur are what ancient humans wore in the distant past. Some things never go out of style.
+knight_jewelry,Jewelry Costume,knight,0,"Forged from divine jewels, Ceri does not seem to be concerned with how revealing it is for a change."
+knight_dancer,Dancing Costume,knight,0,This outfit is worn by dancers during festivals in Yomi's town. Only the most skilled dancers can prevent the straps from slipping out of place.
+knight_scifi,Space Suit,knight,0,"Forged from the mysterious material known as 'carbon fibre', this outfit provides exceptional protection."
+fabric_bikini,Bikini Scrap,valuable,0,Take this to Isabella for a new outfit.
+fabric_schoolswim,School Swimsuit Scrap,valuable,0,Take this to Isabella for a new outfit.
+fabric_maid,French Maid Scrap,valuable,0,Take this to Isabella for a new outfit.
+fabric_ribbon,Ribbons Scrap,valuable,0,Take this to Isabella for a new outfit.
+fabric_bondage,Bondage Scrap,valuable,0,Take this to Isabella for a new outfit.
+fabric_swimsuit,Swimsuit Scrap,valuable,0,Take this to Isabella for a new outfit.
+fabric_bunnysuit,Bunny Suit Scrap,valuable,0,Take this to Isabella for a new outfit.
+fabric_wedding,Wedding Dress Scrap,valuable,0,Take this to Isabella for a new outfit.
+fabric_lingerie,Lingerie Scrap,valuable,0,Take this to Isabella for a new outfit.
+fabric_chocolate,Chocolate Bar,valuable,0,Take this to Isabella for a new outfit.
+fabric_dancer,Dancer Scrap,valuable,0,Take this to Isabella for a new outfit.
+fabric_leaf,Plant Fibers,valuable,0,Take this to Isabella for a new outfit.
+fabric_tribal,Tribal Scrap,valuable,0,Take this to Isabella for a new outfit.
+fabric_tiger,Tiger Scrap,valuable,0,Take this to Isabella for a new outfit.
+fabric_talisman,Bundle of Seals,valuable,0,Take this to Isabella for a new outfit.
+fabric_jewelry,Divine Jewels,valuable,0,Take this to Isabella for a new outfit.
+fabric_demon,Abyssal Shard,valuable,0,"A strange, glowing shard."
+fabric_scifi,Carbon Fibre Sheets,valuable,0,Take this to Isabella for a new outfit.
+luck_statue,Luck Statue,valuable,0,Raises item drop rate.
+luck_statue_shard1,Luck Statue Shard 1,valuable,0,A piece of the luck statue.
+luck_statue_shard2,Luck Statue Shard 2,valuable,0,A piece of the luck statue.
+luck_statue_shard3,Luck Statue Shard 3,valuable,0,A piece of the luck statue.
+luck_statue_shard4,Luck Statue Shard 4,valuable,0,A piece of the luck statue.
+luck_statue_shard5,Luck Statue Shard 5,valuable,0,A piece of the luck statue.
+luck_statue_shard6,Luck Statue Shard 6,valuable,0,A piece of the luck statue.
+succubus_orb,Succubus Orb,valuable,0,"A strange, glowing orb."
+operation_spell,Operation Spell,valuable,0,A spell to operate something.
+dragon_orb,Dragon Orb,valuable,0,A strange orb which numbs the fingers when touched.
+gift_dragon,Dragon Statue,valuable,0,Take this to the Ryuuou to free her.
+gift_bee,Jeweled Chalice,valuable,0,Take this to the Queen Bee as a gift.
+chocolate_puzzle,Chocolate Puzzle,valuable,0,"Those who seek the eternal font of sweetness shall take one step further into the darkness... And reach to the furthest corner, into the eastern reaches of Queen Isis's sweltering domain in its days of glory."
+cow_milk,Cow Milk,valuable,0,"High quality dairy, retrieved from cow girls. Take this to Anubis as a tribute"
+key_lv3,Bronze Key,valuable,0,"This dull, bronze key is required to unlock a door"
+unlock_spell,Unlock Spell,valuable,0,This spell is a mantra to unlock a door
+key_lv6,Left Key,valuable,0,This strangely shaped key seems to be one half of a whole
+key_lv7,Right Key,valuable,0,This strangely shaped key seems to be one half of a whole
+key_lv14,Silver Key,valuable,0,"This tarnished, silver key is required to unlock a door"
+key_lv16,Dragon Key,valuable,0,This decorative iron key is required to unlock a door
+pyramid_word,Ancient Words,valuable,0,These ancient words will unlock the way to the next floor
+key_lv21,Gold Key,valuable,0,"This glowing, golden key is required to unlock a door"
+key_card,Key Card,valuable,0,"A strange, flat device supposedly used to unlock doors"
+master_key_card,Master Key Card,valuable,0,"This strange, flat device grants security clearance for a whole floor"

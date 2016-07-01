@@ -19,8 +19,8 @@ At first we want to activate the developer console.
 1. Save and close the game.
 2. Go to your Sakura Dungeon directory.  
 [gif tutorial](http://i.imgur.com/zxrWI2B.gifv)  
-3. Go to renpy\common\ folder and search for 00console.rpy.
-4. Open 00console.rpy and go to line 98.
+3. Go to renpy\common\ folder and search for **00console.rpy**.
+4. Open **00console.rpy** and go to line **98**.
 5. Change `config.console = False` to `config.console = True`  
 [gif tutorial](http://i.imgur.com/rrRn9ce.gifv)
 6. Done, now you can use the developer console ingame.
@@ -28,7 +28,7 @@ At first we want to activate the developer console.
 
 ## Console usage
 After [activating](#get-started) the console, you can use it ingame.  
-Try to open it with shift+o.  
+Try to open it with `shift+o`.  
 [gif tutorial](http://i.imgur.com/qqlsKVO.gifv)
 
 Generally the console can execute any valid python command.  
@@ -54,4 +54,4 @@ Attributes are more static and will be only modified by items you use.
 ## Credits
 [Guys from CE Forum](http://forum.cheatengine.org/viewtopic.php?t=592226)  
 [happybrother](http://forum.cheatengine.org/profile.php?mode=viewprofile&u=391862) for hint about console commands.  
-[glebsa](http://forum.cheatengine.org/profile.php?mode=viewprofile&u=448688) for info about actors.  
+[glebsa](http://forum.cheatengine.org/profile.php?mode=viewprofile&u=448688) for actors info.  

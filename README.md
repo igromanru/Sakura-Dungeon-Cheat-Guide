@@ -64,11 +64,12 @@ CP: `knight.cp=200`
 
 #### Attributes
 The list of all attributes you can find below in the full actors list.  
+Resistance work a bit different, 1 point = 25%.  
 Examples for Ceri:  
-level: `knight.level=20`   
-Vit (vitality): `knight.vit=100`  
-fire (resistance): `knight.fire=100`  
-shock (resistance): `knight.shock=100`  
+level: `knight.level=20` (set level to 20)  
+Vit (vitality): `knight.vit=100` (set vit to 100)  
+fire (resistance): `knight.fire=4` (4 \* 25% = 100%)  
+shock (resistance): `knight.shock=2` (2 \* 25% = 50%)  
 and so on  
 
 **Attention! Modify attributes like `type`, `skills`, `abilities`, `hit`, `suffer` or `info` only if you know what you are doing!**

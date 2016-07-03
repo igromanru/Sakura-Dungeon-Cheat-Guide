@@ -42,14 +42,14 @@ After starting a new game or loading a save (not in main menu), you can modify y
 Stats like VP or AP are dynamic and will be reset to max value in special situations.  
 Attributes are more static and will be only modified by items you use.
 #### Generally
-Each ally got an [object](https://en.wikipedia.org/wiki/Object_\(computer_science\)), you can modify anything about him through his object. Normally this objects got the same name as the character, but there are exceptions. See the full actors below for more information.  
+Each ally got an [object](https://en.wikipedia.org/wiki/Object_\(computer_science\)), you can modify anything about him through his object. Normally this objects got the same name as the character, but there are exceptions. See the *full actors list* below for more informations.  
 
 There are two main characters, **Yomi**(the player) and your first companion **Ceri**.  
 Yomi is coincident the player himself, so you can access her/players object through `player` or `fox`.  
 And Ceri's object is named `knight`.
-With this information you can start modify their stats and attributes.
-At fisrt, let modify our **Mana shards** amount, attribute `currency` hold this information:    
-`player.currency=991337` or `fox.currency=991337` (is the same)
+With this information you can start modify their stats and attributes.  
+At fisrt, let us modify our **Mana shards** amount, attribute `currency` hold this information:    
+`player.currency=991337` or `fox.currency=991337` (is the same)  
 [animation](http://i.imgur.com/8Z42gsu.gifv)  
 
 All object id's and attributes you can find in the [full actors list](https://docs.google.com/spreadsheets/d/12vLrKiqmfnh0nwrKD5HbC9Qk7lWj77fPff1_-cSj5Os) .
@@ -65,9 +65,9 @@ CP: `knight.cp=200`
 The list of all attributes you can find below in the full actors list.  
 Examples for Ceri:  
 level: `knight.level=20`   
-Vit: `knight.vit=100`  
-fire: `knight.fire=100`  
-shock: `knight.fire=100`  
+Vit (vitality): `knight.vit=100`  
+fire (resistance): `knight.fire=100`  
+shock (resistance): `knight.shock=100`  
 and so on  
 
 **Attention! Modify attributes like `type`, `skills`, `abilities`, `hit`, `suffer` or `info` only if you know what you are doing!**

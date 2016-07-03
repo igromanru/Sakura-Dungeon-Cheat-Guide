@@ -85,8 +85,9 @@ and so on
 ### Add or remove companions
 **Be careful some actors like Ceri(knight) can't be removed! Always make a save before you add someone!**  
 
-Objects `party` and `backup`. **Get sure that your `party` isn't full before you add someone!**  
+There are two objects, `party` and `backup`.  
 You can execute two methods on both objects, `append` and `remove`.  
+**Get sure that your `party` isn't full before you add someone!**  
 Example:  
 `backup.append(bunny)` will add a bunny to your "BackUp".  
 Then you can remove a bunny with  

@@ -8,10 +8,11 @@ In case of Sakura Dungeon we don't have to decompile anything, the game got an d
 * [Get Started](#get-started)
 * [Console usage](#console-usage)
  * [Modify stats and attributes](#modify-stats-and-attributes)
- * [Add or remove consumable and valuable](#add-or-remove-consumable-and-valuable-items)
   * [Generally](#generally)
   * [Stats](#stats)
   * [Attributes](#attributes)
+ * [Add or remove consumable and valuable](#add-or-remove-consumable-and-valuable-items)  
+ * [Add or remove companions](#add-or-remove-companions)
 * [Credits](#credits)
 
 
@@ -80,6 +81,16 @@ and so on
 
 [Full items list](https://docs.google.com/spreadsheets/d/1ZtdCNY44I7SRhcCkU0ZzTvG5PptmZHj4Kfen7Lh2p8M)
 
+### Add or remove companions
+**Be careful some actors like Ceri(knight) can't be removed! Always make a save before you add someone!**  
+
+Objects `party` and `backup`. **Get sure that your `party` isn't full before you add someone!**  
+You can execute two methods on both objects, `append` and `remove`.  
+Example:  
+`backup.append(bunny)` will add a bunny to your "BackUp".  
+Then you can remove a bunny with  
+`backup.remove(bunny)`  
+same with `party`.
 
 ## Credits
 [Guys from CE Forum](http://forum.cheatengine.org/viewtopic.php?t=592226)  

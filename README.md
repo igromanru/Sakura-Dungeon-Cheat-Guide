@@ -39,21 +39,46 @@ We will use it to manipulate the game.
 
 ### Modify stats and attributes
 After starting a new game or loading a save (not in main menu), you can modify your companions(actors) stats and attributes.  
-Stats like VP or AP are dynamic and will be reseted to max value in special situations.  
+Stats like VP or AP are dynamic and will be reset to max value in special situations.  
 Attributes are more static and will be only modified by items you use.
 #### Generally
--- coming soon --
-#### Stats
--- coming soon --
-#### Attributes
--- coming soon --
+Each ally got an [object](https://en.wikipedia.org/wiki/Object_\(computer_science\)), you can modify anything about him through his object. Normally this objects got the same name as the character, but there are exceptions. See the full actors below for more information.  
 
-[Full actors(characters) list](https://docs.google.com/spreadsheets/d/1ZtdCNY44I7SRhcCkU0ZzTvG5PptmZHj4Kfen7Lh2p8M)
+There are two main characters, **Yomi**(the player) and your first companion **Ceri**.  
+Yomi is coincident the player himself, so you can access her/players object through `player` or `fox`.  
+And Ceri's object is named `knight`.
+With this information you can start modify their stats and attributes.
+At fisrt, let modify our **Mana shards** amount, attribute `currency` hold this information:    
+`player.currency=991337` or `fox.currency=991337` (is the same)
+[animation](http://i.imgur.com/8Z42gsu.gifv)  
+
+All object id's and attributes you can find in the [full actors list](https://docs.google.com/spreadsheets/d/12vLrKiqmfnh0nwrKD5HbC9Qk7lWj77fPff1_-cSj5Os) .
+
+#### Stats
+Possible stats are `VP`, `AP` and `CP`.  
+Example for Ceri:   
+VP: `knight.vp=200`   
+AP: `knight.ap=200`  
+CP: `knight.cp=200`
+
+#### Attributes
+The list of all attributes you can find below in the full actors list.  
+Examples for Ceri:  
+level: `knight.level=20`   
+Vit: `knight.vit=100`  
+fire: `knight.fire=100`  
+shock: `knight.fire=100`  
+and so on  
+
+**Attention! Modify attributes like `type`, `skills`, `abilities`, `hit`, `suffer` or `info` only if you know what you are doing!**
+
+
+[Full actors(characters) list](https://docs.google.com/spreadsheets/d/12vLrKiqmfnh0nwrKD5HbC9Qk7lWj77fPff1_-cSj5Os)
 
 ### Add or remove consumable and valuable items
 -- coming soon --  
 
-[Full items list](https://docs.google.com/spreadsheets/d/12vLrKiqmfnh0nwrKD5HbC9Qk7lWj77fPff1_-cSj5Os)
+[Full items list](https://docs.google.com/spreadsheets/d/1ZtdCNY44I7SRhcCkU0ZzTvG5PptmZHj4Kfen7Lh2p8M)
 
 
 ## Credits

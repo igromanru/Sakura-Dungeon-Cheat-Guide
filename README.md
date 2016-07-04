@@ -9,10 +9,13 @@ If you have any questions or wishes, please use the [Issues](https://github.com/
 * [Get Started](#get-started)
 * [Console usage](#console-usage)
  * [Modify stats and attributes](#modify-stats-and-attributes)
-  * [Generally](#generally)
-  * [Stats](#stats)
-  * [Attributes](#attributes)
+   * [Generally](#generally)
+   * [Stats](#stats)
+   * [Attributes](#attributes)
  * [Add or remove consumable, valuable items and outfits](#add-or-remove-consumable-valuable-items-and-outfits)  
+   * [Consumables](#consumables)
+   * [Valuables](#valuables)
+   * [Outfits](#outfits)
  * [Add or remove companions](#add-or-remove-companions)
 * [Credits](#credits)
 
@@ -74,7 +77,6 @@ shock (resistance): `knight.shock=2` (2 \* 25% = 50%)
 and so on  
 
 **Attention! Modify attributes like `type`, `skills`, `abilities`, `hit`, `suffer` or `info` only if you know what you are doing!**
-
 
 [Full actors(characters) list](https://docs.google.com/spreadsheets/d/12vLrKiqmfnh0nwrKD5HbC9Qk7lWj77fPff1_-cSj5Os)
 

@@ -111,7 +111,7 @@ Ceri's list can only be filled with items type `knight`.
 [Full items list](https://docs.google.com/spreadsheets/d/1ZtdCNY44I7SRhcCkU0ZzTvG5PptmZHj4Kfen7Lh2p8M)
 
 ### Add or remove companions
-**Be careful some actors like Ceri(knight) can't be removed! Always make a save before you add someone!**  
+**Be careful, some actors like Ceri(knight) can't be removed! Always save before you add someone!**  
 
 There are two objects, `party` and `backup`.  
 You can execute two methods on both objects, `append` and `remove`.  

@@ -82,10 +82,10 @@ and so on
 Objects `player`, `fox` and `knight` got [lists](https://en.wikipedia.org/wiki/Linked_list), which can be filled with another objects. A list got two necessary [mehtods](https://en.wikipedia.org/wiki/Method_\(computer_programming\)), `append()` and `remove()`.  This methods will be needed to add and remove items.  
 Full items list can be found here: [Full items list](https://docs.google.com/spreadsheets/d/1ZtdCNY44I7SRhcCkU0ZzTvG5PptmZHj4Kfen7Lh2p8M)
 ##### Consumables
-`player` got list `items`, to add an item we have to append it:  
-`player.items.append(warp_stone)` (will and an Warp Stone to the "Consumables")  
+`player` got list `items`, to add an item, we have to append it:  
+`player.items.append(warp_stone)` (will add an Warp Stone to the "Consumables")  
 
-if you want to remove an item use the remove method:  
+If you want to remove an item, use the remove method:  
 `player.items.remove(warp_stone)`
 ##### Valuables
 "Valuables" got the type `valuable` in the items list.  

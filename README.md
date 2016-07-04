@@ -2,7 +2,8 @@
 
 Sakura Dungeon was made with the visual novel engine [Ren'Py](https://www.renpy.org/).  
 It's makes it harder to hack the game with something like Cheat Engine, but it's based on [Python](https://www.python.org/), so the game scrips can be easily decompiled and modified.  
-In case of Sakura Dungeon we don't have to decompile anything, the game got an developer console, that can be simple enabled and used to modify the game while playing. This is what the guide about.
+In case of Sakura Dungeon we don't have to decompile anything, the game got an developer console, that can be simple enabled and used to modify the game while playing. This is what the guide about.  
+If you have any questions or wishes, please use the [Issues](https://github.com/igromanru/Sakura-Dungeon-Cheat-Guide/issues) section.  
 
 ## Index
 * [Get Started](#get-started)
@@ -11,7 +12,7 @@ In case of Sakura Dungeon we don't have to decompile anything, the game got an d
   * [Generally](#generally)
   * [Stats](#stats)
   * [Attributes](#attributes)
- * [Add or remove consumable and valuable](#add-or-remove-consumable-and-valuable-items)  
+ * [Add or remove consumable, valuable items and outfits](#add-or-remove-consumable-valuable-items-and-outfits)  
  * [Add or remove companions](#add-or-remove-companions)
 * [Credits](#credits)
 
@@ -77,8 +78,33 @@ and so on
 
 [Full actors(characters) list](https://docs.google.com/spreadsheets/d/12vLrKiqmfnh0nwrKD5HbC9Qk7lWj77fPff1_-cSj5Os)
 
-### Add or remove consumable and valuable items
--- coming soon --  
+### Add or remove consumable, valuable items and outfits
+Objects `player`, `fox` and `knight` got [lists](https://en.wikipedia.org/wiki/Linked_list), which can be filled with another objects. A list got two necessary [mehtods](https://en.wikipedia.org/wiki/Method_\(computer_programming\)), `append()` and `remove()`.  This methods will be needed to add and remove items.  
+Full items list can be found here: [Full items list](https://docs.google.com/spreadsheets/d/1ZtdCNY44I7SRhcCkU0ZzTvG5PptmZHj4Kfen7Lh2p8M)
+##### Consumables
+`player` got list `items`, to add an item we have to append it:  
+`player.items.append(warp_stone)` (will and an Warp Stone to the "Consumables")  
+
+if you want to remove an item use the remove method:  
+`player.items.remove(warp_stone)`
+##### Valuables
+"Valuables" got the type `valuable` in the items list.  
+You can add valuable to your "Consumables", but they can not be used.  
+To add a valuable item, use this command:  
+`player.valuables.append(fabric_leaf)`  
+
+To remove, like before:  
+`player.valuables.remove(fabric_leaf)`
+##### Outfits
+Only `fox` and `knight` got both a list named `dresses`.  
+Yomi's list can only be filled with items type `fox`.  
+`fox.dresses.append(fox_bikini)`  
+`fox.dresses.remove(fox_bikini)`
+
+Ceri's list can only be filled with items type `knight`.  
+`knight.dresses.append(knight_bikini)`  
+`knight.dresses.remove(knight_bikini)`
+
 
 [Full items list](https://docs.google.com/spreadsheets/d/1ZtdCNY44I7SRhcCkU0ZzTvG5PptmZHj4Kfen7Lh2p8M)
 

@@ -64,7 +64,8 @@ Possible stats are `VP`, `AP` and `CP`.
 Example for Ceri:   
 VP: `knight.vp=200`   
 AP: `knight.ap=200`  
-CP: `knight.cp=200`
+CP: `knight.cp=200`  
+[animation](https://gfycat.com/EnchantedFlakyChameleon)  
 
 #### Attributes
 The list of all attributes you can find below in the full actors list.  
@@ -75,6 +76,7 @@ Vit (vitality): `knight.vit=100` (set vit to 100)
 fire (resistance): `knight.fire=4` (4 \* 25% = 100%)  
 shock (resistance): `knight.shock=2` (2 \* 25% = 50%)  
 and so on  
+[animation](https://gfycat.com/BreakableBigArrowworm)
 
 **Attention! Modify attributes like `type`, `skills`, `abilities`, `hit`, `suffer` or `info` only if you know what you are doing!**
 

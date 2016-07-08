@@ -60,8 +60,9 @@ At fisrt, let us modify our **Mana shards** amount, attribute `currency` hold th
 All object id's and attributes you can find in the [full actors list](https://docs.google.com/spreadsheets/d/12vLrKiqmfnh0nwrKD5HbC9Qk7lWj77fPff1_-cSj5Os) .
 
 #### Stats
-Possible stats are `VP`, `AP`, `CP`, `XP`, `max_vp` and `max_ap`.
-`VP`, `AP`, `max_vp`, `max_ap` and `XP` can be directly modified, but `CP` need two methods.
+Possible stats are `VP`, `AP`, `CP`, `XP`, `max_vp` and `max_ap`.  
+`VP`, `AP`, `max_vp`, `max_ap` and `XP` can be directly modified, but `CP` need two methods.  
+
 Example for Ceri:   
 VP: `knight.vp=999` (will be reseted to max)  
 AP: `knight.ap=999`  (will be reseted to max)  
@@ -73,7 +74,7 @@ CP methods:
 To change CP: `knight.cp_change(10, force=True)`  
 Reset CP:   `knight.reset_cp()`  
 
-[animation](https://gfycat.com/EnchantedFlakyChameleon)  
+
 
 #### Attributes
 The list of all attributes you can find below in the full actors list.  

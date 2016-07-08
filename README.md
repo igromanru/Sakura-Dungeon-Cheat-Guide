@@ -44,7 +44,7 @@ We will use it to manipulate the game.
 
 ### Modify stats and attributes
 After starting a new game or loading a save (not in main menu), you can modify your companions(actors) stats and attributes.  
-Stats like VP or AP are dynamic and will be reset to max value in special situations.  
+Some Stats like VP or AP are dynamic and will be reseted to max value.  
 Attributes are more static and will be only modified by items you use.
 #### Generally
 Each ally got an [object](https://en.wikipedia.org/wiki/Object_\(computer_science\)), you can modify anything about him through his object. Normally this objects got the same name as the character, but there are exceptions. See the *full actors list* below for more informations.  
@@ -60,11 +60,19 @@ At fisrt, let us modify our **Mana shards** amount, attribute `currency` hold th
 All object id's and attributes you can find in the [full actors list](https://docs.google.com/spreadsheets/d/12vLrKiqmfnh0nwrKD5HbC9Qk7lWj77fPff1_-cSj5Os) .
 
 #### Stats
-Possible stats are `VP`, `AP` and `CP`.  
+Possible stats are `VP`, `AP`, `CP`, `XP`, `max_vp` and `max_ap`.
+`VP`, `AP`, `max_vp`, `max_ap` and `XP` can be directly modified, but `CP` need two methods.
 Example for Ceri:   
-VP: `knight.vp=200`   
-AP: `knight.ap=200`  
-CP: `knight.cp=200`  
+VP: `knight.vp=999` (will be reseted to max)  
+AP: `knight.ap=999`  (will be reseted to max)  
+Max VP: `knight.max_vp=200`   
+Max AP: `knight.max_ap=200`  
+XP: `knight.xp=99`
+
+CP methods:  
+To change CP: `knight.cp_change(10, force=True)`  
+Reset CP:   `knight.reset_cp()`  
+
 [animation](https://gfycat.com/EnchantedFlakyChameleon)  
 
 #### Attributes

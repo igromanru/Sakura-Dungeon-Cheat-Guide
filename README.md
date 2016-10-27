@@ -17,8 +17,9 @@ If you have any questions or wishes, please use the [Issues](https://github.com/
     * [Valuables](#valuables)
     * [Outfits](#outfits)
  * [Add or remove companions](#add-or-remove-companions)
+* [Actors list](#actors-list)
+* [Items list](#items-list)
 * [Credits](#credits)
-
 
 
 ## Get Started
@@ -47,7 +48,7 @@ After starting a new game or loading a save (not in main menu), you can modify y
 Some Stats like VP or AP are dynamic and will be reseted to max value.  
 Attributes are more static and will be only modified by items you use.
 #### Generally
-Each ally got an [object](https://en.wikipedia.org/wiki/Object_\(computer_science\)), you can modify anything about him through his object. Normally this objects got the same name as the character, but there are exceptions. See the *full actors list* below for more informations.  
+Each ally got an [object](https://en.wikipedia.org/wiki/Object_\(computer_science\)), you can modify anything about him through his object. Normally this objects got the same name as the character, but there are exceptions. See the *[actors list](#actors-list)* for more informations.  
 
 There are two main characters, **Yomi**(the player) and your first companion **Ceri**.  
 Yomi is coincident the player himself, so you can access her/players object through `player` or `fox`.  
@@ -57,7 +58,7 @@ At fisrt, let us modify our **Mana shards** amount, attribute `currency` hold th
 `player.currency=991337` or `fox.currency=991337` (is the same)  
 [animation](http://i.imgur.com/8Z42gsu.gifv)  
 
-All object id's and attributes you can find in the [full actors list](https://docs.google.com/spreadsheets/d/12vLrKiqmfnh0nwrKD5HbC9Qk7lWj77fPff1_-cSj5Os) .
+All object id's and attributes you can find in the [actors list](#actors-list) .
 
 #### Stats
 Possible stats are `VP`, `AP`, `CP`, `XP`, `max_vp` and `max_ap`.  
@@ -77,7 +78,7 @@ Reset CP:   `knight.reset_cp()`
 
 
 #### Attributes
-The list of all attributes you can find below in the full actors list.  
+The list of all attributes you can find in the [actors list](#actors-list).  
 Resistance work a bit different, 1 point = 25%.  
 Examples for Ceri:  
 level: `knight.level=20` (set level to 20)  
@@ -89,7 +90,7 @@ and so on
 
 **Attention! Modify attributes like `type`, `skills`, `abilities`, `hit`, `suffer` or `info` only if you know what you are doing!**
 
-[Full actors(characters) list](https://docs.google.com/spreadsheets/d/12vLrKiqmfnh0nwrKD5HbC9Qk7lWj77fPff1_-cSj5Os)
+[Full actors(characters) list](#actors-list)
 
 ### Add or remove consumable, valuable items and outfits
 Objects `player`, `fox` and `knight` got [lists](https://en.wikipedia.org/wiki/Linked_list), which can be filled with another objects. A list got two necessary [mehtods](https://en.wikipedia.org/wiki/Method_\(computer_programming\)), `append()` and `remove()`.  This methods will be needed to add and remove items.  
@@ -118,8 +119,7 @@ Ceri's list can only be filled with items type `knight`.
 `knight.dresses.append(knight_bikini)`  
 `knight.dresses.remove(knight_bikini)`
 
-
-[Full items list](https://docs.google.com/spreadsheets/d/1ZtdCNY44I7SRhcCkU0ZzTvG5PptmZHj4Kfen7Lh2p8M)
+[Full items list](#items-list)
 
 ### Add or remove companions
 **Be careful, some actors like Ceri(knight) can't be removed! Always save before you add someone!**  
@@ -132,6 +132,12 @@ Example:
 Then you can remove a bunny with  
 `backup.remove(bunny)`  
 same with `party`.
+
+## Actors list
+[Full actors (characters) list](https://docs.google.com/spreadsheets/d/12vLrKiqmfnh0nwrKD5HbC9Qk7lWj77fPff1_-cSj5Os) (Google Table)
+
+## Items list
+[Full items list](https://docs.google.com/spreadsheets/d/1ZtdCNY44I7SRhcCkU0ZzTvG5PptmZHj4Kfen7Lh2p8M) (Google Table)
 
 ## Credits
 [Guys from CE Forum](http://forum.cheatengine.org/viewtopic.php?t=592226)  
